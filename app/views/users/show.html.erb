@@ -1,3 +1,4 @@
 <div>
-  Welcome, <%= @user.first_name %> 
+  Welcome, <%= @user.first_name %>
+  <%= link_to "Sign Out", controller: "sessions", action: "destroy"%>
 </div>
